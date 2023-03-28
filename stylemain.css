@@ -1,0 +1,805 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+/* .top_bar {
+	display: flex;
+	align-items: center;
+	background-color: #5d5c5d;
+}
+
+.phone {
+	margin-right: 10%;
+	margin-left: 50px;
+	font-size: 15px;
+	color: #fff;
+} */
+
+.social ul {
+	display: flex;
+}
+
+.social ul li {
+	margin-left: 20px;
+	list-style: none;
+}
+
+.social ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #fa9e1b;
+}
+
+.main_nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #845EC2;
+	color: #00C9A7;
+}
+
+.main_nav h2 {
+	font-size: 200%;
+	font-family: Gabriola;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+header .text {
+
+	margin-left: 20px;
+}
+
+nav ul {
+	display: flex;
+}
+
+nav ul li {
+	margin-left: 20px;
+	list-style: none;
+}
+
+/* -------------------------------------------------------
+--------------------To Edit for Nav Bar (Logo) -----------------------------
+----------------------------------------------------------- */
+nav ul li a {
+	color: #4FFBDF;
+	text-decoration: none;
+	text-align: center;
+	padding: 12px;
+	font-size: 15px;
+}
+
+nav ul li a:hover {
+	background-color: #717171;
+	color: #fa9e1b;
+}
+
+/* nav i {
+	z-index: -1;
+	margin-right: 5px;
+} */
+
+/* -------------------------------------------------------
+/* ----------------------------- Edited ------------------------------- */
+/* --------------------------------------------------------- */
+/*----------------------------------------------------------- */
+
+.banner {
+	background-image: url('images/mainbaganbg.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 300px 0;
+
+}
+
+.banner h2 {
+	font-size: 100px;
+	margin-bottom: 20px;
+	font-family: MV Boli;
+
+}
+
+.bagan_banner {
+	background-image: url('images/bagan4.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 300px 0;
+
+}
+
+.bagan_banner h2 {
+	font-size: 100px;
+	margin-bottom: 20px;
+	font-family: MV Boli;
+
+}
+
+.kalaw_banner {
+	background-image: url('images/kalawbg.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 300px 0;
+}
+
+.kalaw_banner h2 {
+	font-size: 600%;
+	font-family: MV Boli;
+}
+
+.ngwesaung_banner {
+	background-image: url('images/ngwesaungbg.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 300px 0;
+}
+
+.ngwesaung_banner h2 {
+	font-size: 600%;
+	font-family: MV Boli;
+}
+
+.inlelake_banner {
+	background-image: url('images/inlelakebg.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 300px 0;
+}
+
+.inlelake_banner h2 {
+	font-size: 600%;
+	font-family: MV Boli;
+}
+
+.putao_banner {
+	background-image: url('images/putaomainbg.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 300px 0;
+}
+
+.putao_banner h2 {
+	font-size: 600%;
+	font-family: MV Boli;
+}
+
+.taunggyi_banner {
+	background-image: url('images/taunggyi\ main\ bg.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 300px 0;
+}
+
+.taunggyi_banner h2 {
+	font-size: 600%;
+	font-family: MV Boli;
+}
+
+.animated_object {
+	display: flex;
+	justify-content: center;
+}
+
+.text_not_gradient {
+	font-family: "Montserrat", sans-serif;
+	color: #FEFEDF;
+	font-size: 80px;
+	font-weight: 1000;
+}
+
+.gradient_text {
+	background-image: linear-gradient(to right, #845EC2, #B39CD0, #FBEAFF);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-size: 300%;
+	animation: gradient_animation 3s infinite alternate;
+}
+
+@keyframes gradient_animation {
+	0% {
+		background-position: left;
+	}
+
+	100% {
+		background-position: right;
+	}
+}
+
+
+
+/* ----------------------kalaw---------------------- */
+.kalaw {
+	background-image: url('images/main kalaw bg.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 100px 0;
+}
+
+.kalaw h2 {
+	font-size: 80px;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+/* ---------------------------------------------------- */
+/* ----------------------Bagan---------------------- */
+.bagan {
+	background-image: url('images/hotel/bagan.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 100px 0;
+}
+
+.bagan h2 {
+	font-size: 80px;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+/* ---------------------------------------------------- */
+/* ------------------------ ngwesaung-------------------- */
+.ngwesaung {
+	background-image: url('images/hotel/ngwesaung.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 100px 0;
+}
+
+.ngwesaung h2 {
+	font-size: 80px;
+	font-weight: bold;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+/* ---------------------------------------------------- */
+.rooms {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px;
+	width: 100%;
+}
+
+.room {
+	flex-basis: calc(33.33% - 20px);
+	margin-bottom: 20px;
+}
+
+.room .display {
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 100px 0;
+	margin-bottom: 30px;
+	border-radius: 5%;
+}
+
+.room .display button {
+	width: 150px;
+	height: 50px;
+	border-radius: 25px;
+	border: none;
+	text-align: center;
+	background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+	z-index: -1;
+	transition: all 400ms ease;
+	color: #fff;
+
+}
+
+.room .display button:hover {
+
+	background: linear-gradient(to right, #8d4fff, #fa9e1b, #8d4fff);
+	z-index: -1;
+	transition: all 400ms ease;
+	color: #fff;
+
+}
+
+.room .display a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* .room img {
+	
+} */
+
+.room .display h3 {
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #fff;
+}
+
+.room .display p {
+	font-size: 20px;
+	font-weight: 800;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+/* ----------------------------- about us ------------------------- */
+.title {
+	text-align: center;
+	padding: 50px 0;
+	background-color: #ADC5CF;
+}
+
+.title h2 {
+	font-size: 400%;
+}
+
+
+/* --------------------------------------------------------------------------------------
+----------------------------------------Hotels----------------------------------------- */
+
+.hotel_container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	padding: 50px;
+	width: 100%;
+	background-color: #ADC5CF;
+
+}
+
+.hotel_container h2 {
+	font-size: 500%;
+	margin: auto;
+}
+
+
+
+.hotel_profile {
+	flex-basis: calc(40% - 20px);
+	margin-bottom: 20px;
+}
+
+.hotel_profile .hotel_display {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: #fff;
+	padding: 150px 50px;
+	margin-bottom: 30px;
+	border-radius: 5%;
+}
+
+.hotels {
+	flex-basis: calc(60% - 20px);
+	margin-bottom: 20px;
+}
+
+.hotels .hotel_display {
+	width: 100%;
+	text-align: justify;
+
+}
+
+.hotels .hotel_display h3 {
+	font-size: 50px;
+	margin-bottom: 10px;
+	color: #000000;
+	text-align: auto;
+}
+
+.hotels .hotel_display p {
+	font-size: 15px;
+	font-weight: 800;
+	color: #000000;
+	margin-bottom: 20px;
+}
+.hotel_display ul li {
+	list-style: none;
+}
+
+.hotel_display ul li img {
+	width: 13px;
+	height: 13px;
+	margin-right: 10px;
+	size: large;
+}
+
+/* --------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------- */
+
+p {
+	font-size: 16px;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+
+
+
+.contact {
+	padding: 50px;
+	text-align: center;
+	background-color: #e7e7e7;
+}
+
+.contact h2 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.contact input,
+.contact textarea,
+.contact select,
+select option {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+.contact textarea {
+	height: 150px;
+}
+
+.contact button[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.contact button[type="submit"] a{
+	color: white;
+	text-decoration: none;
+}
+/* ----------------------------- Edited ------------------------------- */
+/* ----------------------------- Edited ------------------------------- */
+.contactus {
+	display: flex;
+	background-color: #7b7979;
+	color: #fff;
+	box-sizing: border-box;
+	/* height: 200px; */
+	padding: 50px;
+	/* align-items: center; */
+	justify-content: space-between;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+
+/* ----------------------------- Edited ------------------------------- */
+/* ----------------------------- Edited ------------------------------- */
+.desp {
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.desp .text {
+	margin-bottom: 10px;
+	color: white;
+}
+
+.desp .text p {
+	color: white;
+}
+
+.info {
+	align-items: center;
+	box-sizing: border-box;
+	/* width: 40%; */
+
+	/* float: left; */
+	/* margin-left:; */
+}
+
+.info ul li {
+	list-style: none;
+}
+
+.info ul li img {
+	width: 13px;
+	height: 13px;
+	margin-right: 10px;
+}
+
+
+/* ----------------------------- Edited ------------------------------- */
+/* ------------------- Footer --------------------- */
+/* ----------------------------- Edited ------------------------------- */
+
+footer {
+
+	display: flex;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	/* margin-top: 50px; */
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------- */
+footer .copyright {
+	display: flex;
+	align-items: center;
+}
+
+.copyright p {
+	color: white;
+}
+/* nav ul {
+	display: flex;
+}
+
+footer nav ul li {
+	margin-left: 20px;
+	list-style: none;
+}
+
+footer nav ul li a {
+	color: #fff;
+	text-decoration: none;
+} */
+
+
+/* Media Queries */
+
+@media (max-width: 1024px) {
+	.banner {
+		padding: 80px 0;
+
+	}
+
+	.banner h2 {
+		font-size: 40px;
+
+	}
+
+	.rooms {
+		padding: 30px;
+
+	}
+
+	.room {
+		flex-basis: calc(50% - 20px);
+
+	}
+
+	.menu-item {
+		flex-basis: calc(50% - 20px);
+
+	}
+}
+
+@media (max-width: 768px) {
+	header {
+		flex-direction: column;
+		align-items: flex-start;
+
+
+	}
+
+	nav ul {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 20px;
+
+	}
+
+	nav ul li {
+		margin-left: 0;
+		margin-bottom: 10px;
+
+	}
+
+	.banner {
+		padding: 60px 0;
+
+	}
+
+	.banner h2 {
+		font-size: 30px;
+	}
+
+	.rooms {
+		padding: 20px;
+
+	}
+
+	.room {
+		flex-basis: 100%;
+		margin-bottom: 20px;
+
+	}
+
+	.menu-item {
+		flex-basis: 100%;
+		margin-bottom: 20px;
+
+	}
+
+	.contact input,
+	.contact select,
+	.contact textarea {
+		margin-bottom: 10px;
+
+	}
+
+	.contact textarea {
+		height: 100px;
+
+	}
+
+	.contact button[type="submit"] {
+		padding: 10px 15px;
+	}
+
+	/* ----------------------------- Edited ------------------------------- */
+	/* ----------------------------- Edited ------------------------------- */
+	.hotel_container {
+		flex-basis: 100%;
+		margin-bottom: 20px;
+		padding: 20px;
+
+
+	}
+
+	.hotel_container h2 {
+		align-self: center;
+	}
+
+	.hotel_profile {
+		flex-basis: 100%;
+		margin-bottom: 20px;
+
+		margin: 0;
+	}
+
+	.hotels {
+		flex-basis: 100%;
+	}
+
+	/* ------------------------------------------------------------------------------- */
+	.contactus {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	.contactus .info {
+
+		align-items: center;
+		width: 100%;
+		padding: 10px;
+	}
+
+	footer {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	/* ----------------------------- Edited ------------------------------- */
+	/* ---------------------------------------------------------------------------------- */
+
+}
+
+/* ------------------------------ */
+/* ---------icon------------------- */
+
+.fa {
+	/* padding: 10px; */
+	font-size: 20px;
+	width: 20px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	color: #fa9e1b;
+}
+
+
+/* ---------------- Rating -------------- */
+.checked {
+	font-size: larger;
+	color: orange;
+}
+/* ---------------- Thankyou -------------- */
+.thankyou {
+	width: 100%;
+	height: 500px;
+	
+
+}
+
+.thankyoutext {
+	width: 100%;
+	height: 100%;
+	
+	padding: 100px 0;
+
+}
+
+.thankyoutext h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.thankyou p {
+    text-align: center;
+	font-size: 25px;
+}
+
+.thankyoutext button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.thankyoutext button a{
+	color: white;
+	text-decoration: none;
+}
+
+.thankyoutext img {
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
